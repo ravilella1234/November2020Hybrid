@@ -37,7 +37,17 @@ public class BaseTest
 		orProp = new Properties();
 		orProp.load(fis);
 		
-		xls = new ExcelAPI("D:\\AprilWorkSpace\\SampleCRM\\src\\test\\resources\\suiteA.xlsx");
+		//How do i come to know which Excel file to load
+		String[] pack = this.getClass().getPackage().getName().split("\\.");
+		String suiteName = pack[pack.length-1];
+		System.out.println(suiteName);
+		
+		//init the xls file
+		xls = new ExcelAPI(projectPath+"\\src\\test\\resources\\"+suiteName+".xlsx");
+		
+		//init the TestName
+		String testName = this.getClass().getSimpleName();
+		System.out.println(testName);
 		
 		
 	}

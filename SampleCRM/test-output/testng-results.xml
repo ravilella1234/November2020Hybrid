@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="101" started-at="2020-11-20T06:00:51Z" finished-at="2020-11-20T06:00:51Z">
+  <suite name="Default suite" duration-ms="2835" started-at="2020-11-23T06:16:55Z" finished-at="2020-11-23T06:16:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="101" started-at="2020-11-20T06:00:51Z" finished-at="2020-11-20T06:00:51Z">
-      <class name="com.demoproject.SampleCRM.suiteA.TestA">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoproject.SampleCRM.suiteA.TestA@3a079870]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2020-11-20T06:00:51Z" finished-at="2020-11-20T06:00:51Z">
+    <test name="Default test" duration-ms="2835" started-at="2020-11-23T06:16:55Z" finished-at="2020-11-23T06:16:58Z">
+      <class name="com.demoproject.SampleCRM.suiteB.TestX">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoproject.SampleCRM.suiteB.TestX@3a079870]" name="beforeMethod" is-config="true" duration-ms="2664" started-at="2020-11-23T06:16:55Z" finished-at="2020-11-23T06:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.demoproject.SampleCRM.suiteA.TestA@3a079870]" name="f" duration-ms="11" started-at="2020-11-20T06:00:51Z" finished-at="2020-11-20T06:00:51Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.demoproject.SampleCRM.suiteB.TestX@3a079870]" name="f" duration-ms="29" started-at="2020-11-23T06:16:58Z" finished-at="2020-11-23T06:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demoproject.SampleCRM.suiteA.TestA@3a079870]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-20T06:00:51Z" finished-at="2020-11-20T06:00:51Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demoproject.SampleCRM.suiteB.TestX@3a079870]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-11-23T06:16:58Z" finished-at="2020-11-23T06:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.demoproject.SampleCRM.suiteA.TestA -->
+      </class> <!-- com.demoproject.SampleCRM.suiteB.TestX -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
